@@ -1,0 +1,23 @@
+.Todoapp{
+    text-align: center;
+}
+.head{
+    padding-top: 3%;
+    background-image: linear-gradient(to bottom right,#556B2F,#d1f8d1);
+    border-radius: 10%;
+    height: 90%;
+    
+
+}
+
+.headin{
+    padding: 50px;
+    display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #004953;
+}
