@@ -34,7 +34,7 @@ class Todoapp extends React.Component{
 
 render() {
     return(
-        <><div className="head">
+        <div className="head">
             <div className='headin'>
                 <h1>Make Your List</h1><div id="checkin">
                     <input type="checkbox" onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox} />&nbsp;
@@ -42,10 +42,7 @@ render() {
                 </div>
                 <button onClick={this.Do()}>Next</button>
             </div>
-        </div><div className='items'>
-                arr.forEach(element => {arr[i]};
-                });
-            </div></>
+        </div>
     );
 
     }
